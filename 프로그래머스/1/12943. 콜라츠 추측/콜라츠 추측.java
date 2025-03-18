@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(long num) {
+    public int solution(double num) {
         int answer = 0;
         
         if (num == 1){
@@ -16,7 +16,7 @@ class Solution {
         }
         if (answer >= 500) {
             return -1;
-        }
+            }
     return answer;
     }
 }
